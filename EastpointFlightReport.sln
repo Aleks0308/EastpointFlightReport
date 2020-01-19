@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EastpointFlightReport", "EastpointFlightReport\EastpointFlightReport.csproj", "{F16835D3-C2A2-4E84-8E34-CE1F0024669E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B104C0C-84B2-484A-8629-7099C29DDDC6} = {2B104C0C-84B2-484A-8629-7099C29DDDC6}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EastpointFlightReportCommon", "EastpointFlightReportCommon\EastpointFlightReportCommon.csproj", "{2B104C0C-84B2-484A-8629-7099C29DDDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EastpointFlightReportTests", "EastpointFlightReportTests\EastpointFlightReportTests.csproj", "{69076A04-D24E-4031-968F-2034893703BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16835D3-C2A2-4E84-8E34-CE1F0024669E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16835D3-C2A2-4E84-8E34-CE1F0024669E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16835D3-C2A2-4E84-8E34-CE1F0024669E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16835D3-C2A2-4E84-8E34-CE1F0024669E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B104C0C-84B2-484A-8629-7099C29DDDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B104C0C-84B2-484A-8629-7099C29DDDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B104C0C-84B2-484A-8629-7099C29DDDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B104C0C-84B2-484A-8629-7099C29DDDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69076A04-D24E-4031-968F-2034893703BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69076A04-D24E-4031-968F-2034893703BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69076A04-D24E-4031-968F-2034893703BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69076A04-D24E-4031-968F-2034893703BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7435240-0FB2-4C5A-89FD-626B0AF41106}
+	EndGlobalSection
+EndGlobal
